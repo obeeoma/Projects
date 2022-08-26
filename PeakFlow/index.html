@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peak Flow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Table -->
+      <table>
+        <!-- Table headings -->
+        <thead>
+          <tr>
+            <th>DAY</th>
+            <th>AM</th>
+            <th>MID</th>
+            <th>PM</th>
+            <th>VARIABILITY</th>
+          </tr>
+        </thead>
+        <!-- Body of Table -->
+        <tbody></tbody>
+      </table>
+      <br />
+      <!-- Input Entry -->
+      <div class="entry">
+        <h1>DAY</h1>
+        <br />
+        <label for="am-value">AM:</label>
+        <br />
+        <input type="text" id="am-value" class="input" placeholder="AM value" />
+        <br />
+        <br />
+        <label for="mid-value">MID:</label>
+        <br />
+        <input
+          type="text"
+          id="mid-value"
+          class="input"
+          placeholder="Mid value"
+        />
+        <br />
+        <br />
+        <label for="pm-value">PM:</label>
+        <br />
+        <input type="text" id="pm-value" class="input" placeholder="PM value" />
+        <br />
+        <br />
+        <button id="btn">CHECK VARIABILITY</button>
+      </div>
+    </div>
+    <script src="peak.js"></script>
+  </body>
+</html>
